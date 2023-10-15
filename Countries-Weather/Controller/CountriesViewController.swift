@@ -27,16 +27,7 @@ class CountriesViewController: UIViewController {
         countriesCollection.delegate = self
         
         activityLoader.startAnimating()
-        
-        NetworkingService.shared.fetchRequest(name: "all") { result in
-            self.countriesArray = result
-            DispatchQueue.main.async {
-                self.countriesCollection.reloadData()
-                self.activityView.isHidden = true
-                self.activityLoader.stopAnimating()
-                self.activityLoader.isHidden = true
-            }
-        }
+        fetchAllCountries()
     
     }
     
@@ -63,6 +54,18 @@ class CountriesViewController: UIViewController {
             Country.saveToDevice(countries: Country.fovouriteCountries)
         }
             
+    }
+    
+    func fetchAllCountries(){
+        NetworkingService.shared.fetchRequest(name: "all") { result in
+            self.countriesArray = result
+            DispatchQueue.main.async {
+                self.countriesCollection.reloadData()
+                self.activityView.isHidden = true
+                self.activityLoader.stopAnimating()
+                self.activityLoader.isHidden = true
+            }
+        }
     }
 
     
@@ -125,7 +128,18 @@ extension CountriesViewController: UICollectionViewDelegate, UICollectionViewDat
 //MARK: - Searchbar delegate
 
 extension CountriesViewController: UISearchBarDelegate {
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+ func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+     if(self.searchTF.text == ""){
+         self.searchTF.endEditing(true)
+         self.searchTF.setShowsCancelButton(false,animated: true)
+         fetchAllCountries()
+         
+     }
+
+   }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.searchTF.endEditing(true)
         isSearching = true
         NetworkingService.shared.fetchRequest(name: "name/\(searchTF.text!)") { result in
             self.countriesArray = result

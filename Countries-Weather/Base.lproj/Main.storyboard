@@ -362,22 +362,22 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="Q48-o6-qnW">
-                                <rect key="frame" x="20" y="633" width="359" height="70"/>
+                                <rect key="frame" x="20" y="633" width="353" height="70"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HEs-0k-gKg">
-                                        <rect key="frame" x="0.0" y="0.0" width="157" height="70"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="70"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="24k-Lg-3pJ">
-                                                <rect key="frame" x="10" y="16" width="137" height="38"/>
+                                                <rect key="frame" x="10" y="16" width="134" height="38"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunrise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGL-mz-juW">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137" height="15"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="134" height="15"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkA-qV-dRz">
-                                                        <rect key="frame" x="0.0" y="23" width="137" height="15"/>
+                                                        <rect key="frame" x="0.0" y="23" width="134" height="15"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -394,19 +394,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zod-r4-mNc">
-                                        <rect key="frame" x="202" y="0.0" width="157" height="70"/>
+                                        <rect key="frame" x="199" y="0.0" width="154" height="70"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ax1-QI-wF5">
-                                                <rect key="frame" x="10" y="16" width="137" height="38"/>
+                                                <rect key="frame" x="10" y="16" width="134" height="38"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Cp-yt-w6H">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137" height="15"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="134" height="15"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaR-Nt-0d3">
-                                                        <rect key="frame" x="0.0" y="23" width="137" height="15"/>
+                                                        <rect key="frame" x="0.0" y="23" width="134" height="15"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -429,14 +429,14 @@
                                 </constraints>
                             </stackView>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search a city..." translatesAutoresizingMaskIntoConstraints="NO" id="h6A-PC-HLJ">
-                                <rect key="frame" x="0.0" y="103" width="399" height="56"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="OPg-yZ-yeu" id="RWn-pV-mwy"/>
                                 </connections>
                             </searchBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Itr-jv-CBT">
-                                <rect key="frame" x="245.33333333333334" y="204" width="113.66666666666666" height="123"/>
+                                <rect key="frame" x="239.33333333333334" y="204" width="113.66666666666666" height="123"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlO-ro-Kvj">
                                         <rect key="frame" x="0.0" y="0.0" width="113.66666666666667" height="54"/>
@@ -659,11 +659,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Gft-fR-xpo"/>
+        <segue reference="6HZ-Vh-GZC"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="house" catalog="system" width="128" height="104"/>
-        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="house" catalog="system" width="32" height="32"/>
+        <image name="star.fill" catalog="system" width="32" height="32"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
