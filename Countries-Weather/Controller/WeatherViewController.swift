@@ -93,6 +93,11 @@ extension WeatherViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         fetchWeather(city: searchBar.text!)
     }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.searchBar.endEditing(true)
+     
+    }
 }
 
 
