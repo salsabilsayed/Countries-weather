@@ -362,23 +362,23 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="Q48-o6-qnW">
-                                <rect key="frame" x="20" y="633" width="353" height="70"/>
+                                <rect key="frame" x="20" y="623" width="353" height="90.666666666666629"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HEs-0k-gKg">
-                                        <rect key="frame" x="0.0" y="0.0" width="154" height="70"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="90.666666666666671"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="24k-Lg-3pJ">
-                                                <rect key="frame" x="10" y="16" width="134" height="38"/>
+                                                <rect key="frame" x="10" y="15.999999999999996" width="134" height="58.666666666666657"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunrise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGL-mz-juW">
-                                                        <rect key="frame" x="0.0" y="0.0" width="134" height="15"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="134" height="25.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkA-qV-dRz">
-                                                        <rect key="frame" x="0.0" y="23" width="134" height="15"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="33.333333333333371" width="134" height="25.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -394,20 +394,20 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zod-r4-mNc">
-                                        <rect key="frame" x="199" y="0.0" width="154" height="70"/>
+                                        <rect key="frame" x="199" y="0.0" width="154" height="90.666666666666671"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ax1-QI-wF5">
-                                                <rect key="frame" x="10" y="16" width="134" height="38"/>
+                                                <rect key="frame" x="10" y="15.999999999999996" width="134" height="58.666666666666657"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Cp-yt-w6H">
-                                                        <rect key="frame" x="0.0" y="0.0" width="134" height="15"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="134" height="25.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaR-Nt-0d3">
-                                                        <rect key="frame" x="0.0" y="23" width="134" height="15"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="33.333333333333371" width="134" height="25.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -423,10 +423,6 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="Zod-r4-mNc" firstAttribute="leading" secondItem="Q48-o6-qnW" secondAttribute="leading" constant="196" id="i2u-94-fpd"/>
-                                    <constraint firstAttribute="height" constant="70" id="wbE-J3-y6f"/>
-                                </constraints>
                             </stackView>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search a city..." translatesAutoresizingMaskIntoConstraints="NO" id="h6A-PC-HLJ">
                                 <rect key="frame" x="0.0" y="103" width="393" height="56"/>
@@ -458,14 +454,14 @@
                         <constraints>
                             <constraint firstItem="SvO-Ok-OzP" firstAttribute="trailing" secondItem="Itr-jv-CBT" secondAttribute="trailing" constant="40" id="0Zx-mB-ny7"/>
                             <constraint firstItem="esC-GO-X5y" firstAttribute="top" secondItem="h6A-PC-HLJ" secondAttribute="bottom" constant="30" id="4DJ-KO-ohW"/>
+                            <constraint firstItem="Q48-o6-qnW" firstAttribute="leading" secondItem="SvO-Ok-OzP" secondAttribute="leading" constant="20" id="6Co-hd-xcs"/>
                             <constraint firstItem="Itr-jv-CBT" firstAttribute="top" secondItem="h6A-PC-HLJ" secondAttribute="bottom" constant="45" id="E6A-NN-oNG"/>
                             <constraint firstItem="h6A-PC-HLJ" firstAttribute="leading" secondItem="SvO-Ok-OzP" secondAttribute="leading" id="HfV-Zv-ZdY"/>
-                            <constraint firstItem="Q48-o6-qnW" firstAttribute="leading" secondItem="SvO-Ok-OzP" secondAttribute="leading" constant="20" id="LS5-wa-T2l"/>
                             <constraint firstItem="esC-GO-X5y" firstAttribute="leading" secondItem="SvO-Ok-OzP" secondAttribute="leading" constant="30" id="VHp-De-zos"/>
                             <constraint firstItem="h6A-PC-HLJ" firstAttribute="top" secondItem="SvO-Ok-OzP" secondAttribute="top" id="ZP0-Db-VdW"/>
                             <constraint firstItem="h6A-PC-HLJ" firstAttribute="trailing" secondItem="SvO-Ok-OzP" secondAttribute="trailing" id="afA-Dg-dMv"/>
-                            <constraint firstItem="SvO-Ok-OzP" firstAttribute="bottom" secondItem="Q48-o6-qnW" secondAttribute="bottom" constant="66" id="jpP-8H-Ybf"/>
-                            <constraint firstItem="SvO-Ok-OzP" firstAttribute="trailing" secondItem="Q48-o6-qnW" secondAttribute="trailing" constant="20" id="ofN-QF-jY2"/>
+                            <constraint firstItem="SvO-Ok-OzP" firstAttribute="bottom" secondItem="Q48-o6-qnW" secondAttribute="bottom" constant="55.329999999999998" id="dKq-p8-1DR"/>
+                            <constraint firstItem="SvO-Ok-OzP" firstAttribute="trailing" secondItem="Q48-o6-qnW" secondAttribute="trailing" constant="20" id="ydP-Ok-oUb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Otu-J6-Wj9"/>
@@ -662,8 +658,8 @@
         <segue reference="6HZ-Vh-GZC"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="house" catalog="system" width="32" height="32"/>
-        <image name="star.fill" catalog="system" width="32" height="32"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
